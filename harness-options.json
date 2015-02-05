@@ -1,0 +1,52 @@
+{
+ "abort_on_missing": false, 
+ "check_memory": false, 
+ "enable_e10s": false, 
+ "is-sdk-bundled": false, 
+ "jetpackID": "jid1-jaZ4yb0htFY71w@jetpack", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "tw5ticketassistant/main", 
+ "manifest": {
+  "tw5ticketassistant/main": {
+   "docsSHA256": null, 
+   "jsSHA256": "eabc56f0570bfd101f33b0413a73a22c20e4189046705480b33b5bd50cb065f0", 
+   "moduleName": "main", 
+   "packageName": "tw5ticketassistant", 
+   "requirements": {
+    "sdk/page-mod": "sdk/page-mod", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "tw5ticketassistant": {
+   "description": "a basic add-on", 
+   "license": "MPL 2.0", 
+   "main": "main", 
+   "name": "tw5ticketassistant", 
+   "version": "2.1.1"
+  }
+ }, 
+ "name": "tw5ticketassistant", 
+ "parseable": false, 
+ "preferencesBranch": "jid1-jaZ4yb0htFY71w@jetpack", 
+ "sdkVersion": "1.17", 
+ "staticArgs": {}, 
+ "verbose": false
+}
